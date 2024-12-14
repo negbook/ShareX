@@ -32,11 +32,12 @@ namespace ShareX.ScreenCaptureLib
 {
     public static class RegionCaptureTasks
     {
+
         public static Bitmap GetRegionImage(RegionCaptureOptions options = null)
         {
             RegionCaptureOptions newOptions = GetRegionCaptureOptions(options);
 
-            using (RegionCaptureForm form = new RegionCaptureForm(RegionCaptureMode.Default, newOptions))
+            using (RegionCaptureForm form = new RegionCaptureForm(RegionCaptureMode.DragMovable, newOptions))
             {
                 form.ShowDialog();
 

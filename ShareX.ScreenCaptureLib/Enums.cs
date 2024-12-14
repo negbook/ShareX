@@ -267,7 +267,8 @@ namespace ShareX.ScreenCaptureLib
         Ruler,
         OneClick,
         Editor,
-        TaskEditor
+        TaskEditor,
+        DragMovable
     }
 
     public enum RegionCaptureAction // Localized
