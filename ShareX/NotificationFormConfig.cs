@@ -53,6 +53,8 @@ namespace ShareX
         public ToastClickAction RightClickAction { get; set; }
         public ToastClickAction MiddleClickAction { get; set; }
 
+        
+
         public void Dispose()
         {
             TextFont?.Dispose();

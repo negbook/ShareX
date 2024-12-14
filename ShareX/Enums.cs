@@ -336,6 +336,7 @@ namespace ShareX
 
     public enum ToastClickAction // Localized
     {
+        ScanQRCode,
         CloseNotification,
         AnnotateImage,
         CopyImageToClipboard,
